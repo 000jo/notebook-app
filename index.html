@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notebook App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="camera-container">
+        <video id="camera" autoplay></video>
+        <button id="shutter">Foto machen</button>
+    </div>
+    <div id="notebook-container" class="hidden">
+        <div id="notebook-entry"></div>
+        <button id="generate-questions">Fragen generieren</button>
+    </div>
+    <div id="questions-container" class="hidden">
+        <div id="questions"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
